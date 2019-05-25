@@ -15,6 +15,7 @@ import org.springframework.web.bind.annotation.RestController;
 public class BootApplication extends SpringBootServletInitializer {
 
 	public static void main(String[] args) {
+
 		SpringApplication.run(BootApplication.class, args);
 	}
 	@Override
